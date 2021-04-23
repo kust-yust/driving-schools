@@ -1,0 +1,51 @@
+from django.db import models
+
+class Pruebas(models.Model):
+    provincia = models.CharField('Provincia', max_length = 50)
+    municipio = models.CharField('Municipio', max_length = 50)
+    autoescuela_id = models.CharField('Código Autoescuela', max_length = 10)
+    nombre = models.CharField('Nombre Autoescuela', max_length = 100)
+    seccion = models.IntegerField('Código Sección')
+    permiso = models.CharField('Tipo Permiso', max_length = 10)
+    examen = models.CharField('Tipo Examen', max_length = 50)
+    aptos = models.IntegerField('Número Aptos')
+    aptos_1 = models.IntegerField('Número Aptos 1ª convocatoria')
+    no_aptos = models.IntegerField('Número Suspendidos')
+    total = models.IntegerField('Total Examenados')
+    year = models.IntegerField('Año')
+
+    def __str__(self):
+        return self.nombre + ' ' + self.permiso + ' '+self.examen + ' '+ str(self.year)
+
+    class Meta:
+        verbose_name = 'Prueba'
+        verbose_name_plural = 'Pruebas'
+
+class DataFile(models.Model):
+    data = models.FileField()
+
+    def save(self, *args, **kwargs):
+        from csv import reader
+        super().save(*args, **kwargs)
+        filename = self.data.path
+        with open(filename) as f:
+            read_file = list(reader(f, dialect='excel'))
+            for row in read_file[1:]:
+                prueba = Pruebas.objects.create(
+                    provincia=str(row[0]),
+                    municipio=str(row[1]),
+                    autoescuela_id=str(row[2]),
+                    nombre=str(row[3]),
+                    seccion=int(float(row[4])),
+                    permiso=str(row[5]),
+                    examen=str(row[6]),
+                    aptos=int(float(row[7])),
+                    aptos_1=int(float(row[8])),
+                    no_aptos=int(float(row[9])),
+                    total=int(float(row[10])),
+                    year=int(row[11]),
+                )
+
+    def __str__(self):
+        return self.data.path
+
