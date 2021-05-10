@@ -1,10 +1,44 @@
 from django.db import models
 
+#Model to save school info (id, name, provice, city)
+class Schools(models.Model):
+    autoescuela_id = models.CharField('Código Autoescuela', max_length=10)
+    provincia = models.CharField('Provincia', max_length=50)
+    municipio = models.CharField('Municipio', max_length=50)
+    nombre = models.CharField('Nombre Autoescuela', max_length=100)
+
+    def __str__(self):
+        return self.autoescuela_id
+
+    class Meta:
+        verbose_name = 'School'
+        verbose_name_plural = 'Schools'
+
+#Used to populate 'Schools' table from .csv file using admin panel
+class AddSchool(models.Model):
+    data = models.FileField()
+
+    def save(self, *args, **kwargs):
+        from csv import reader
+        super().save(*args, **kwargs)
+        filename = self.data.path
+        with open(filename) as f:
+            read_file = list(reader(f, dialect='excel'))
+            for row in read_file[1:]:
+                school = Schools.objects.create(
+                    autoescuela_id=str(row[0]),
+                    provincia=str(row[1]),
+                    municipio=str(row[2]),
+                    nombre=str(row[3])
+                )
+
+    def __str__(self):
+        return self.data.path
+
+
+
 class Pruebas(models.Model):
-    provincia = models.CharField('Provincia', max_length = 50)
-    municipio = models.CharField('Municipio', max_length = 50)
-    autoescuela_id = models.CharField('Código Autoescuela', max_length = 10)
-    nombre = models.CharField('Nombre Autoescuela', max_length = 100)
+    school = models.ForeignKey(Schools, on_delete=models.CASCADE)
     seccion = models.IntegerField('Código Sección')
     permiso = models.CharField('Tipo Permiso', max_length = 10)
     examen = models.CharField('Tipo Examen', max_length = 50)
@@ -15,7 +49,7 @@ class Pruebas(models.Model):
     year = models.IntegerField('Año')
 
     def __str__(self):
-        return self.nombre + ' ' + self.permiso + ' '+self.examen + ' '+ str(self.year)
+        return str(self.school) + ' ' + self.permiso + ' '+self.examen + ' '+ str(self.year)
 
     class Meta:
         verbose_name = 'Prueba'
@@ -32,10 +66,7 @@ class DataFile(models.Model):
             read_file = list(reader(f, dialect='excel'))
             for row in read_file[1:]:
                 prueba = Pruebas.objects.create(
-                    provincia=str(row[0]),
-                    municipio=str(row[1]),
-                    autoescuela_id=str(row[2]),
-                    nombre=str(row[3]),
+                    school=Schools.objects.get(autoescuela_id=str(row[2])),
                     seccion=int(float(row[4])),
                     permiso=str(row[5]),
                     examen=str(row[6]),
