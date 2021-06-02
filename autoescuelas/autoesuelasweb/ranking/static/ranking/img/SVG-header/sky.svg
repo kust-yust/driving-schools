@@ -1,0 +1,13 @@
+<svg width="360" height="640" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_20" x2="0" y2="1">
+   <stop offset="0" stop-color="#0eefe4"/>
+   <stop offset="1" stop-color="#b3fcf8"/>
+  </linearGradient>
+ </defs>
+ <g class="layer" display="inline">
+  <title>sky</title>
+  <rect fill="url(#svg_20)" height="328.386004" id="svg_85" stroke="#aad4ff" stroke-width="0" width="360.523851" x="-0.48707" y="-0.46829"/>
+ </g>
+</svg>

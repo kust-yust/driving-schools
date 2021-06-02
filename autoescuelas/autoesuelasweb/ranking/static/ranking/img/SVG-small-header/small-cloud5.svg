@@ -1,0 +1,13 @@
+<svg width="360" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_38" x2="0" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity="0.5"/>
+  </linearGradient>
+ </defs>
+ <g class="layer" display="inline">
+  <title>cloud5</title>
+  <path d="m210.52722,53.09328c6.70269,0 19.98839,0.18488 29.20459,0c9.2162,-0.18487 13.76446,-4.06723 11.9691,-10.35295c-1.79536,-6.28571 -7.30114,-5.17648 -7.18146,-7.14846c0.11969,-1.97199 0.71815,-10.72269 -6.94208,-13.00281c-7.66022,-2.28012 -12.44786,3.38935 -13.40538,5.85434c-0.95752,2.46498 -4.06949,-3.20449 -10.05404,0c-5.98455,3.20448 -2.15444,9.12045 -5.02702,9.12045c-2.87258,0 -9.81466,1.7255 -9.33589,7.14847c0.47876,5.42297 4.06949,8.38095 10.77218,8.38095l0.00001,0l-0.00001,0.00001z" fill="url(#svg_38)" id="svg_87" opacity="0.5" stroke="#aad4ff" stroke-width="0"/>
+ </g>
+</svg>

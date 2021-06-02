@@ -1,0 +1,41 @@
+<svg width="360" height="640" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_20" x2="0" y2="1">
+   <stop offset="0" stop-color="#0eefe4"/>
+   <stop offset="1" stop-color="#b3fcf8"/>
+  </linearGradient>
+  <linearGradient id="svg_35" x2="0" y2="1">
+   <stop offset="0" stop-color="#00c4de"/>
+   <stop offset="1" stop-color="#54dff2"/>
+  </linearGradient>
+  <linearGradient id="svg_44" x1="0" x2="0" y1="0" y2="1">
+   <stop offset="0.66276" stop-color="#0460d9"/>
+   <stop offset="1" stop-color="#5297f2"/>
+  </linearGradient>
+  <linearGradient id="svg_38" x2="0" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity="0.5"/>
+  </linearGradient>
+  <linearGradient id="svg_45" x1="0" x2="0" y1="0" y2="1">
+   <stop offset="0" stop-color="#00c4de"/>
+   <stop offset="1" stop-color="#54dff2"/>
+  </linearGradient>
+  <linearGradient id="svg_62" x2="0" y2="1">
+   <stop offset="0" stop-color="#00b3d3"/>
+   <stop offset="1" stop-color="#14c3e2"/>
+  </linearGradient>
+  <linearGradient id="svg_40" x2="0" y2="1">
+   <stop offset="0" stop-color="#049dd9"/>
+   <stop offset="1" stop-color="#2dbbef"/>
+  </linearGradient>
+  <linearGradient id="svg_36" x2="0" y2="1">
+   <stop offset="0" stop-color="#005fbf"/>
+   <stop offset="1" stop-color="#3585d6"/>
+  </linearGradient>
+ </defs>
+ <g class="layer" display="inline">
+  <title>cloud3</title>
+  <path d="m127.77643,209.55195c7.93576,0 23.66556,0.21865 34.57722,0c10.91166,-0.21865 16.29664,-4.81022 14.17099,-12.2442c-2.12565,-7.43398 -8.64431,-6.1221 -8.5026,-8.45433c0.14171,-2.33223 0.85026,-12.68149 -8.21918,-15.37813c-9.06944,-2.69664 -14.73783,4.00852 -15.87151,6.9238c-1.13368,2.91529 -4.81814,-3.78987 -11.90363,0c-7.0855,3.78987 -2.55078,10.78656 -5.95182,10.78656c-3.40104,0 -11.62021,2.0407 -11.05337,8.45433c0.56684,6.41363 4.81814,9.91197 12.75389,9.91197l0.00001,0z" fill="url(#svg_38)" id="svg_72" opacity="0.5" stroke="#aad4ff" stroke-width="0" transform="matrix(1 0 0 1 0 0)"/>
+ </g>
+</svg>

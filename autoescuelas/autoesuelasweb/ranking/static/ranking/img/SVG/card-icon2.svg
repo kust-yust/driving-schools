@@ -1,0 +1,29 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_28" x2="0" y2="1">
+   <stop offset="0" stop-color="#ff794e"/>
+   <stop offset="0.5" stop-color="#ff9749"/>
+   <stop offset="1" stop-color="#ffb44c"/>
+  </linearGradient>
+  <linearGradient id="svg_38" x1="0" x2="0" y1="0" y2="1">
+   <stop offset="0" stop-color="#ff794e"/>
+   <stop offset="1" stop-color="#ff9749"/>
+  </linearGradient>
+  <linearGradient id="svg_39" x1="0" x2="0" y1="0" y2="1">
+   <stop offset="0" stop-color="#ff9749"/>
+   <stop offset="1" stop-color="#ffb44c"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>cardicon2</title>
+  <g id="svg_40">
+   <rect fill="#000000" fill-opacity="0" height="137.99999" id="svg_24" stroke="url(#svg_28)" stroke-width="9" width="188" x="6" y="6"/>
+   <path d="m37.21,105.66812l18.5,-29.37731l18.5,29.37731l-37,0z" fill="#000000" fill-opacity="0" id="svg_33" stroke="url(#svg_39)" stroke-width="11"/>
+   <ellipse cx="55.75" cy="55.25" fill="#000000" fill-opacity="0" id="svg_31" rx="15.75" ry="15.75" stroke="url(#svg_38)" stroke-width="11"/>
+   <path d="m100.5,44.5l67,0" fill="none" fill-opacity="0" id="svg_34" stroke="#ff794e" stroke-width="13"/>
+   <path d="m100,74l67,0" fill="none" fill-opacity="0" id="svg_35" stroke="#ff9749" stroke-width="13"/>
+   <path d="m100,103l67,0" fill="none" fill-opacity="0" id="svg_36" stroke="#ffb44c" stroke-width="13"/>
+  </g>
+ </g>
+</svg>

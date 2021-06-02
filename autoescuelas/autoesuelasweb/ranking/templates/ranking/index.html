@@ -1,8 +1,138 @@
 {% extends 'ranking/layout.html' %}
 
+{% load static %}
+
 {% block title %}Ranking de autoescuelas{% endblock %}
 
 {% block content %}
-    <h1>Mejores autoescuelas</h1>
-    <p>Ranking</p>
+        <!-- Parallax Image Page -->
+        <section class="parallax-header">
+        <h1 class="parallax-elements header-text" data-rateX='1.5' data-direction='vertical'>Las mejores<br>AUTOESCUELAS<br>en tu ciudad</h1>
+        <img class="parallax-elements sky-img" data-rateX='0.5' data-direction='vertical' src="{% static 'ranking/img/SVG-header/sky.svg' %}" alt="sky image">
+        <img class="parallax-elements clouds-img cloud-1" data-rateX='0.9' data-rateY='0.4' data-direction='horizontal' src="{% static 'ranking/img/SVG-header/cloud1.svg' %}" alt="clouds image">
+        <img class="parallax-elements clouds-img cloud-2" data-rateX='0.85' data-rateY='-0.3' data-direction='horizontal' src="{% static 'ranking/img/SVG-header/cloud2.svg' %}" alt="clouds image">
+        <img class="parallax-elements clouds-img cloud-3" data-rateX='0.85' data-rateY='0.6' data-direction='horizontal' src="{% static 'ranking/img/SVG-header/cloud3.svg' %}" alt="clouds image">
+        <img class="parallax-elements clouds-img cloud-4" data-rateX='0.85' data-rateY='0.2' data-direction='horizontal' src="{% static 'ranking/img/SVG-header/cloud4.svg' %}" alt="clouds image">
+        <img class="parallax-elements clouds-img cloud-5" data-rateX='0.85' data-rateY='-0.1' data-direction='horizontal' src="{% static 'ranking/img/SVG-header/cloud5.svg' %}" alt="clouds image">
+        <img class="parallax-elements city-img" data-rateX='0.7' data-direction='vertical' src="{% static 'ranking/img/SVG-header/city.svg' %}" alt="city image">
+        <img class="parallax-elements trees-img"  data-rateX='0.5' data-direction='vertical' src="{% static 'ranking/img/SVG-header/trees.svg' %}" alt="trees image">
+        <img class="parallax-elements road-img"  data-rateX='0.5' data-direction='vertical' src="{% static 'ranking/img/SVG-header/road.svg' %}" alt="road image">
+        <img class="parallax-elements car-img" data-rateX='0.3' data-direction='vertical' src="{% static 'ranking/img/SVG-header/car-back.svg' %}" alt="car image">
+        <img class="parallax-elements traffic-light-img" data-direction='vertical' data-rateX='0.5' src="{% static 'ranking/img/SVG-header/traffic-light.svg' %}" alt="traffic light image">
+        <img class="parallax-elements zebra-cross-img" data-direction='vertical' data-rateX='0.5' src="{% static 'ranking/img/SVG-header/zebra-cross.svg' %}" alt="zebra cross image">
+        <div class="ciudad">
+            <p>Cual es tu ciudad? Valencia.</p>
+        </div>
+    </section>
+    <!-- Ranking Top 3 Cards Page -->
+    <section class="ranking">
+        <div class="top-tres">
+            <h2 class="raking-title">Top 3 autoescuelas en (Valencia)</h2>
+            <div class="escuelas-grid">
+                <div class="container-escuela">
+                <ul class="card-info">
+                    <li class="school-logo"><img src="{% static 'ranking/img/img/Logotipo-avae.png' %}" alt="logo"></li>
+                    <li class="school-name"><h3>Nombre de autoescuela</h3></li>
+                    <li class="school-position">1</li>
+                    <li class="school-location">Location</li>
+                    <li class="school-website">Website</li>
+                    <li class="school-popularity">12345/year</li>
+                    <li class="school-rate">95%</li>
+                </ul>
+            </div>
+            <div class="container-escuela">
+                <ul class="card-info">
+                    <li class="school-logo"><img src="{% static 'ranking/img/img/autoescuela-valencia-logo.png' %}" alt="logo"></li>
+                    <li class="school-name"><h3>Nombre de autoescuela</h3></li>
+                    <li class="school-position">2</li>
+                    <li class="school-location">Location</li>
+                    <li class="school-website">Website</li>
+                    <li class="school-popularity">1234/year</li>
+                    <li class="school-rate">85%</li>
+                </ul>
+            </div>
+            <div class="container-escuela">
+                <ul class="card-info">
+                    <li class="school-logo"><img src="{% static 'ranking/img/img/autoescuelas-jorda-logo.png' %}" alt="logo"></li>
+                    <li class="school-name"><h3>Nombre de autoescuela</h3></li>
+                    <li class="school-position">3</li>
+                    <li class="school-location">Location</li>
+                    <li class="school-website">Website</li>
+                    <li class="school-popularity">345/year</li>
+                    <li class="school-rate">75%</li>
+                </ul>
+            </div>
+        </div>
+            <input class="buttons ranking-button" type="button" onclick="location.href='ranking.html';" value="Ver todas">
+            <!-- <a href="ranking.html" class="buttons ranking-button">Ver todas</a> -->
+        </div> 
+    </section>
+    <!-- Articles Page -->
+    <section class="importante">
+        <h2>Importante</h2>
+        <a href="comoelejir.html">
+        <img class="icons" src="{% static 'ranking/img/svg/card-icon2.svg' %}" alt="Lisence Icon">
+        <div class="article-card">
+        <h3>Cómo elejir una autoescuela</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <!-- <input class="buttons" type="button" onclick="location.href='comoelejir.html';" value="Leer"> -->
+        </div>
+        </a>
+        <a href="quenecesito.html">
+        <img class="icons" src="{% static 'ranking/img/svg/car-icon2.svg' %}" alt="Car Icon">
+        <div class="article-card">
+        <h3>Qué necesito para obtener el carnet de conducir</h3>
+        <p>Guía orientativa para facilitar el proceso de tramitación de carnet. </p>
+        <!-- <input class="buttons" type="button" onclick="location.href='quenecesito.html';" value="Leer"> -->
+        </div>
+        </a>
+    </section>
+    <!-- Contact Us Page -->
+    <section class="contact-page">
+        <div class="contact-form">
+            <form action="index.html">
+            <h2 class="form-title">Contact us</h2>
+            <div class="form-container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, unde!</p>
+                <div class="input-container">
+                    <input type="text" placeholder="Name" name="name" class="input">
+                    <!-- <label for="">Name</label> -->
+                </div>
+                <div class="input-container">
+                    <input type="email" placeholder="Email" name="email" class="input">
+                    <!-- <label for="">Email</label> -->
+                </div>
+                <div class="input-container">
+                    <input type="tel" placeholder="Phone" name="phone" class="input">
+                    <!-- <label for="">Phone</label> -->
+                </div>
+                <div class="input-container">
+                    <textarea name="message" placeholder="Message" class="input"></textarea>
+                    <!-- <label for="">Message</label> -->
+                </div>
+                <input class="buttons" type="submit" value="Send" class="btn">
+            </div>
+            </form>
+        </div>
+    <div class="footer-container">
+        <img class="footer" src="{% static 'ranking/img/SVG/city-footer-2.svg' %}" alt="">
+    </div>
+    </section>  
+    <script>
+
+    window.addEventListener('scroll', function(e) {
+        const target = document.querySelectorAll('.parallax-elements');
+
+        for (let index = 0; index < target.length; index++) {
+            var pos = window.pageYOffset * target[index].dataset.ratex;
+            if (target[index].dataset.direction === 'vertical') {
+                target[index].style.transform = 'translate3d(0px, '+pos+'px, 0px)';
+            } else {
+                var pos = window.pageYOffset * target[index].dataset.ratex;
+                var posSides = window.pageYOffset * target[index].dataset.ratey;
+                target[index].style.transform = 'translate3d('+posSides+'px, '+pos+'px, 0px)';
+            }
+        }
+    });
+    </script> 
 {% endblock %}

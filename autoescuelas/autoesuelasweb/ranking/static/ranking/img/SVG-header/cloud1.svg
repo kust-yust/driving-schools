@@ -1,0 +1,41 @@
+<svg width="360" height="640" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_20" x2="0" y2="1">
+   <stop offset="0" stop-color="#0eefe4"/>
+   <stop offset="1" stop-color="#b3fcf8"/>
+  </linearGradient>
+  <linearGradient id="svg_35" x2="0" y2="1">
+   <stop offset="0" stop-color="#00c4de"/>
+   <stop offset="1" stop-color="#54dff2"/>
+  </linearGradient>
+  <linearGradient id="svg_44" x1="0" x2="0" y1="0" y2="1">
+   <stop offset="0.66276" stop-color="#0460d9"/>
+   <stop offset="1" stop-color="#5297f2"/>
+  </linearGradient>
+  <linearGradient id="svg_38" x2="0" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity="0.5"/>
+  </linearGradient>
+  <linearGradient id="svg_45" x1="0" x2="0" y1="0" y2="1">
+   <stop offset="0" stop-color="#00c4de"/>
+   <stop offset="1" stop-color="#54dff2"/>
+  </linearGradient>
+  <linearGradient id="svg_62" x2="0" y2="1">
+   <stop offset="0" stop-color="#00b3d3"/>
+   <stop offset="1" stop-color="#14c3e2"/>
+  </linearGradient>
+  <linearGradient id="svg_40" x2="0" y2="1">
+   <stop offset="0" stop-color="#049dd9"/>
+   <stop offset="1" stop-color="#2dbbef"/>
+  </linearGradient>
+  <linearGradient id="svg_36" x2="0" y2="1">
+   <stop offset="0" stop-color="#005fbf"/>
+   <stop offset="1" stop-color="#3585d6"/>
+  </linearGradient>
+ </defs>
+ <g class="layer" display="inline">
+  <title>cloud1</title>
+  <path d="m238.759594,135.312888c16.715431,0 49.847799,0.401266 72.831514,0c22.983705,-0.401276 34.326336,-8.827887 29.848978,-22.470983c-4.477347,-13.643085 -18.207873,-11.235481 -17.909379,-15.515673c0.298484,-4.280181 1.790937,-23.273504 -17.31242,-28.222465c-19.103347,-4.948971 -31.042926,7.356555 -33.430842,12.706792c-2.387926,5.350237 -10.148652,-6.9553 -25.073147,0c-14.924484,6.9553 -5.372811,19.795854 -12.536579,19.795854c-7.163758,0 -24.476158,3.745164 -23.282189,15.515673c1.193948,11.770509 10.148652,18.190791 26.864073,18.190791l0,0.000011l-0.00001,0l0.000001,0z" fill="url(#svg_38)" id="svg_63" opacity="0.5" stroke="#aad4ff" stroke-width="0"/>
+ </g>
+</svg>

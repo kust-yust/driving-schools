@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer" display="inline">
+  <title>card icon</title>
+  <rect fill="#1f43ad" height="200" id="svg_2" stroke="#000000" stroke-width="0" width="200" x="0" y="1"/>
+  <g id="svg_3">
+   <rect fill="#000000" fill-opacity="0" height="81" id="svg_4" stroke="#f3f169" stroke-width="9" width="135" x="33" y="57"/>
+   <rect fill="#000000" fill-opacity="0" height="40" id="svg_5" stroke="#f3f169" stroke-width="9" width="38" x="50" y="76"/>
+   <line fill="#000000" id="svg_6" stroke="#f3f169" stroke-width="9" x1="111" x2="150" y1="78" y2="78"/>
+   <line fill="#000000" id="svg_7" stroke="#f3f169" stroke-width="9" x1="111.5" x2="150.5" y1="96.5" y2="96.5"/>
+   <line fill="#000000" id="svg_8" stroke="#f3f169" stroke-width="9" x1="111.5" x2="150.5" y1="113" y2="113"/>
+  </g>
+ </g>
+</svg>

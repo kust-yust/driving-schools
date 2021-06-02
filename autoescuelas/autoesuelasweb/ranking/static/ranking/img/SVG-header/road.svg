@@ -1,0 +1,18 @@
+<svg width="360" height="640" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_44" x1="0" x2="0" y1="0" y2="1">
+   <stop offset="0.66276" stop-color="#0460d9"/>
+   <stop offset="1" stop-color="#5297f2"/>
+  </linearGradient>
+  <linearGradient id="svg_40" x2="0" y2="1">
+   <stop offset="0" stop-color="#049dd9"/>
+   <stop offset="1" stop-color="#2dbbef"/>
+  </linearGradient>
+ </defs>
+ <g class="layer" display="inline">
+  <title>road2</title>
+  <rect fill="url(#svg_40)" height="312.386" id="svg_29" stroke="#aad4ff" stroke-width="0" width="361.523861" x="-0.761927" y="327.849042"/>
+  <path d="m-12.439874,640.414765l170.730633,-311.562338l45.731416,-1.267189l169.714373,312.829527l-386.176432,0l0.000011,0l-0.000011,0l0.000005,0l0.000005,0l0.000001,0z" fill="url(#svg_44)" id="svg_28" stroke="#666666" stroke-width="0"/>
+ </g>
+</svg>

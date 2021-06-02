@@ -1,0 +1,24 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_10" x2="0" y2="1">
+   <stop offset="0" stop-color="#ff794e"/>
+   <stop offset="1" stop-color="#ff9749"/>
+  </linearGradient>
+  <linearGradient id="svg_12" x2="0" y2="1">
+   <stop offset="0" stop-color="#ff9749"/>
+   <stop offset="1" stop-color="#ffb44c"/>
+  </linearGradient>
+ </defs>
+ <g class="layer" display="inline">
+  <title>cardicon2 copy</title>
+  <g id="svg_4">
+   <ellipse cx="50.77501" cy="89.9131" fill="#ffb44c" id="svg_6" rx="14.00001" ry="12.6128" stroke="#ffb44c" stroke-width="4"/>
+   <ellipse cx="149.77501" cy="91.19774" fill="#ffb44c" id="svg_7" rx="14.00001" ry="12.6128" stroke="#ffb44c" stroke-width="4"/>
+   <rect fill="#ff794e" height="20.37451" id="svg_8" stroke="#ff794e" stroke-linejoin="round" stroke-width="6" width="21.00001" x="24.775" y="123.87061"/>
+   <rect fill="#ff794e" height="20.37451" id="svg_9" stroke="#ff794e" stroke-linejoin="round" stroke-width="6" width="21.00001" x="153.77501" y="126.12549"/>
+   <path d="m37.43134,57.53474l11.61112,-50.97652l105.28571,-0.74966l11.61109,51.72618l-128.50794,0l0.00001,0l0.00001,0z" fill="#000000" fill-opacity="0" id="svg_3" stroke="url(#svg_10)" stroke-width="11"/>
+   <path d="m8.22501,123.94337l16.625,-65.97461l150.74999,-0.97022l16.62497,66.94482l-183.99999,0l0.00001,0l0.00001,0z" fill="#000000" fill-opacity="0" id="svg_5" stroke="url(#svg_12)" stroke-width="11" transform="matrix(1 0 0 1 0 0)"/>
+  </g>
+ </g>
+</svg>
