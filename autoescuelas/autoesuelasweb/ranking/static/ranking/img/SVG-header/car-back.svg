@@ -1,0 +1,64 @@
+<svg width="360" height="640" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_20" x2="0" y2="1">
+   <stop offset="0" stop-color="#0eefe4"/>
+   <stop offset="1" stop-color="#b3fcf8"/>
+  </linearGradient>
+  <linearGradient id="svg_35" x2="0" y2="1">
+   <stop offset="0" stop-color="#00c4de"/>
+   <stop offset="1" stop-color="#54dff2"/>
+  </linearGradient>
+  <linearGradient id="svg_44" x1="0" x2="0" y1="0" y2="1">
+   <stop offset="0.66276" stop-color="#0460d9"/>
+   <stop offset="1" stop-color="#5297f2"/>
+  </linearGradient>
+  <linearGradient id="svg_38" x2="0" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity="0.5"/>
+  </linearGradient>
+  <linearGradient id="svg_45" x1="0" x2="0" y1="0" y2="1">
+   <stop offset="0" stop-color="#00c4de"/>
+   <stop offset="1" stop-color="#54dff2"/>
+  </linearGradient>
+  <linearGradient id="svg_62" x2="0" y2="1">
+   <stop offset="0" stop-color="#00b3d3"/>
+   <stop offset="1" stop-color="#14c3e2"/>
+  </linearGradient>
+  <linearGradient id="svg_40" x2="0" y2="1">
+   <stop offset="0" stop-color="#049dd9"/>
+   <stop offset="1" stop-color="#2dbbef"/>
+  </linearGradient>
+  <linearGradient id="svg_36" x2="0" y2="1">
+   <stop offset="0" stop-color="#005fbf"/>
+   <stop offset="1" stop-color="#3585d6"/>
+  </linearGradient>
+  <linearGradient id="svg_50" x1="0" x2="0" y1="0" y2="1">
+   <stop offset="0" stop-color="#ff794e"/>
+   <stop offset="1" stop-color="#ffb44c"/>
+  </linearGradient>
+  <linearGradient id="svg_65">
+   <stop offset="0" stop-color="#0c4dce"/>
+   <stop offset="1" stop-color="#0339a6"/>
+  </linearGradient>
+  <linearGradient id="svg_48" x2="0" y2="1">
+   <stop offset="0" stop-color="#00b3d3"/>
+   <stop offset="1" stop-color="#2bd4f2"/>
+  </linearGradient>
+ </defs>
+<g class="layer" display="inline">
+  <title>car back</title>
+  <g id="svg_52">
+   <path d="m261.612363,433.950131l16.913216,0l0,0c2.215681,0 4.011838,3.940941 4.011838,8.802336c0,4.861393 -1.796159,8.802331 -4.011838,8.802331l-16.913216,0l0,0c-2.215676,0 -4.011838,-3.940938 -4.011838,-8.802331c0,-4.861398 1.796162,-8.802336 4.011838,-8.802336z" fill="#00b3d3" id="svg_82" stroke="#aad4ff" stroke-width="0"/>
+   <path d="m82.898071,433.950131l16.913216,0l0,0c2.215679,0 4.011838,3.940941 4.011838,8.802336c0,4.861393 -1.796159,8.802333 -4.011838,8.802333l-16.913216,0l0,0c-2.215676,0 -4.011838,-3.940939 -4.011838,-8.802333c0,-4.861396 1.796162,-8.802336 4.011838,-8.802336z" fill="#00b3d3" id="svg_81" stroke="#aad4ff" stroke-width="0"/>
+   <path d="m124.030856,386.867936l116.373858,0.692691l-2.287787,0c15.381008,0 25.561959,27.899237 25.561959,44.370652c0,16.471409 -5.017604,13.536604 -4.295422,15.277617l-158.817901,0.580338l2.300455,0.580338c3.597763,0.580338 -4.74029,-0.659575 -4.74029,-17.130984c0,-13.007966 11.286735,-42.292579 25.905127,-44.370652z" fill="#00b3d3" id="svg_54" stroke="#aad4ff" stroke-width="0"/>
+   <path d="m110.888403,445.746671l141.413196,0l0,0c18.525531,0 33.543405,15.937814 33.543405,35.598094c0,19.660273 -15.017882,35.59808 -33.543405,35.59808l-141.413196,0l0,0c-18.52551,0 -33.543405,-15.937807 -33.543405,-35.59808c0,-19.660287 15.017895,-35.598094 33.543405,-35.598094z" fill="url(#svg_48)" id="svg_53" stroke="#aad4ff" stroke-width="0"/>
+   <path d="m86.672001,527.103261l0,-24.430179l0,0c0,-3.200422 5.16635,-5.794872 11.539364,-5.794872c6.373011,0 11.53936,2.594451 11.53936,5.794872l0,24.430179l0,0c0,3.200419 -5.166349,5.794872 -11.53936,5.794872c-6.373015,0 -11.539364,-2.594452 -11.539364,-5.794872z" fill="url(#svg_65)" id="svg_59" stroke="#0339a6" stroke-width="0"/>
+   <path d="m254.995928,528.488644l0,-24.430177l0,0c0,-3.200422 5.166351,-5.794872 11.539364,-5.794872c6.373011,0 11.53936,2.594449 11.53936,5.794872l0,24.430177l0,0c0,3.200419 -5.166349,5.794872 -11.53936,5.794872c-6.373015,0 -11.539364,-2.594452 -11.539364,-5.794872z" fill="url(#svg_65)" id="svg_60" stroke="#aad4ff" stroke-width="0"/>
+   <path d="m115.363337,438.950481l11.212942,-39.483387l113.3416,0l11.212934,39.483387l-135.767476,0z" fill="url(#svg_38)" id="svg_67" stroke="#aad4ff" stroke-width="0"/>
+   <rect fill="url(#svg_38)" height="16.624585" id="svg_69" stroke="#aad4ff" stroke-width="0" width="53.337211" x="149.599607" y="462.543562"/>
+   <path d="m92.641322,485.064688l0.010396,-29.785696l16.207983,2.776421l13.572514,12.126832l-12.887802,10.732212l-16.903092,4.150231z" fill="url(#svg_50)" id="svg_84" stroke="#aad4ff" stroke-width="0"/>
+   <path d="m268.8693,453.496471l0.815818,29.774523l-16.27876,-2.325768l-13.903671,-11.745686l12.585147,-11.08557l16.781467,-4.6175l-0.000001,0z" fill="url(#svg_50)" id="svg_86" stroke="#aad4ff" stroke-width="0"/>
+  </g>
+ </g>
+</svg>

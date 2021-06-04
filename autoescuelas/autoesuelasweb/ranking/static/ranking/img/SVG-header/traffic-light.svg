@@ -1,0 +1,22 @@
+<svg width="360" height="640" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+    <defs>
+    </defs>
+<g class="layer" display="inline">
+  <title>traffic light</title>
+  <g id="svg_11">
+   <g id="svg_24">
+    <path d="m239.516086,323.256958l-18.024689,15.018924l-18.024689,-15.018924l36.049378,0l0.000001,0l-0.000001,0z" fill="#0460d9" id="svg_6" stroke="#000000" stroke-width="0"/>
+    <path d="m239.69463,308.555009l-18.024689,15.018924l-18.024689,-15.018924l36.049378,0l0.000001,0l-0.000001,0z" fill="#0460d9" id="svg_4" stroke="#000000" stroke-width="0"/>
+    <path d="m239.752428,293.711754l-18.024689,15.018924l-18.024689,-15.018924l36.049378,0l0.000001,0l-0.000001,0z" fill="#0460d9" id="svg_3" stroke="#000000" stroke-width="0"/>
+    <rect fill="#0460d9" height="46.169267" id="svg_2" stroke="#000000" stroke-width="0" width="17.058325" x="212.978279" y="293.945114"/>
+    <rect fill="#0460d9" height="28.31051" id="svg_1" stroke="#000000" stroke-width="0" width="6.470403" x="218.382642" y="337.68949"/>
+   </g>
+   <g id="svg_37">
+    <circle cx="221.173731" cy="330.452095" fill="#00c4de" id="svg_13" r="5.509168" stroke="#000000" stroke-width="0"/>
+    <circle cx="221.173731" cy="315.768637" fill="#00c4de" id="svg_9" r="5.509183" stroke="#000000" stroke-width="0"/>
+    <circle cx="221.516716" cy="301.085177" fill="#00c4de" id="svg_8" r="5.509183" stroke="#000000" stroke-width="0"/>
+   </g>
+  </g>
+ </g>
+</svg>

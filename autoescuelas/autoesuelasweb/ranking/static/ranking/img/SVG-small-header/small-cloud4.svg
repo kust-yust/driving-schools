@@ -1,0 +1,13 @@
+<svg width="360" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_38" x2="0" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity="0.5"/>
+  </linearGradient>
+ </defs>
+ <g class="layer" display="inline">
+  <title>cloud4</title>
+  <path d="m85.00612,50.38156c9.41812,0 28.08619,0.24679 41.03613,0c12.94993,-0.24679 19.3408,-5.42939 16.81807,-13.82025c-2.52271,-8.39087 -10.25903,-6.91013 -10.09084,-9.54255c0.16818,-2.63243 1.00908,-14.31381 -9.7545,-17.35757c-10.76357,-3.04375 -17.49079,4.52449 -18.83625,7.81502c-1.34545,3.29054 -5.71815,-4.27769 -14.12719,0c-8.40904,4.27769 -3.02725,12.17497 -7.06359,12.17497c-4.03634,0 -13.79082,2.30338 -13.1181,9.54255c0.67272,7.23918 5.71815,11.18782 15.13627,11.18782l0,0.00001l-0.00001,0l0.00001,0z" fill="url(#svg_38)" id="svg_83" opacity="0.5" stroke="#aad4ff" stroke-width="0"/>
+ </g>
+</svg>

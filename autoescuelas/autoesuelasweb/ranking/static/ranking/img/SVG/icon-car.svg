@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+<g class="layer" display="inline">
+  <title>car icon</title>
+  <rect fill="#1f43ad" height="200" id="svg_9" stroke="#000000" stroke-width="0" transform="matrix(1 0 0 1 0 0)" width="200" x="0" y="0.5"/>
+  <g id="svg_30">
+   <path d="m35.225,134.94152l11.56522,-51.35579l104.86956,-0.75523l11.5652,52.11102l-127.99999,0l0.00001,0z" fill="#000000" fill-opacity="0" id="svg_19" stroke="#f3f169" stroke-width="10"/>
+   <ellipse cx="64.825" cy="108.45176" fill="#f3f169" id="svg_21" rx="9.73913" ry="9.81802" stroke="#f3f169" stroke-width="4"/>
+   <ellipse cx="133.69457" cy="109.45176" fill="#f3f169" id="svg_23" rx="9.73913" ry="9.81802" stroke="#f3f169" stroke-width="4"/>
+   <rect fill="#f3f169" height="15.85988" id="svg_25" stroke="#f3f169" stroke-linejoin="round" stroke-width="6" width="14.6087" x="46.73804" y="134.88489"/>
+   <rect fill="#f3f169" height="15.85988" id="svg_28" stroke="#f3f169" stroke-linejoin="round" stroke-width="6" width="14.6087" x="136.47718" y="136.64012"/>
+   <path d="m59.57283,82.8305l7.22826,-41.68006l65.54346,-0.61294l7.22825,42.293l-79.99998,0l0.00001,0z" fill="#000000" fill-opacity="0" id="svg_29" stroke="#f3f169" stroke-width="9"/>
+  </g>
+ </g>
+</svg>
